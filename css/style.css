@@ -130,7 +130,7 @@ nav ul a.active {
 
 /* banner  */
 .hero-banner {
-    background: url(/images/banner.png);
+    background: url(./images/banner.png);
     margin-top: 80px;
     background-repeat: no-repeat;
     background-position: center;
