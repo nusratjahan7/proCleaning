@@ -42,11 +42,11 @@ img {
     display: block;
 }
 
-.container {
+/* .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-}
+} */
 
 .btn-primary {
     display: inline-block;
@@ -218,6 +218,8 @@ nav ul a.active {
     padding: 6px;
     border-radius: 24px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 400px;
+    margin: 0 auto;
 }
 
 .service-card:hover {
@@ -226,9 +228,6 @@ nav ul a.active {
 }
 
 .card-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
     padding-top: 40px;
 }
 
