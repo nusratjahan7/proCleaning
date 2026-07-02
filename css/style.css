@@ -84,40 +84,25 @@ img {
 /* header  */
 
 header {
-    background-color: #ffffff;
     padding: 20px 0;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 100;
 }
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 
 .logo img {
     height: 35px;
 }
 
-nav ul {
-    display: flex;
-    gap: 35px;
-}
-
-nav ul a {
+.nav-link {
     font-weight: 500;
     font-size: 15px;
     color: #444444;
     transition: color 0.3s ease;
 }
 
-nav ul a:hover,
-nav ul a.active {
+.nav-link:hover,
+.nav-link.active {
     color: #36B864;
 }
 
@@ -131,7 +116,6 @@ nav ul a.active {
 /* banner  */
 .hero-banner {
     background: url(../images/banner.png);
-    margin-top: 80px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -694,7 +678,6 @@ nav ul a.active {
 
 
 .pricing-container {
-    max-width: 1200px;
     width: 100%;
     padding: 0 20px;
     display: grid;

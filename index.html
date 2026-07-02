@@ -23,28 +23,42 @@
 
     <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- header  -->
     <header>
-      <div class="container">
-        <div class="logo">
-          <img src="./images/Logo.png" alt="logo" />
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="logo">
+            <img src="./images/Logo.png" alt="logo" />
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="#" class="btn-primary" style="padding: 10px 24px"
+              >Contact Us</a
+            >
+          </div>
         </div>
-        <nav>
-          <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-        <a href="#" class="btn-primary" style="padding: 10px 24px"
-          >Contact Us</a
-        >
-      </div>
+      </nav>
     </header>
 
     <!-- banner  -->
@@ -86,7 +100,7 @@
           </div>
         </div>
         <div class="container card-container">
-          <div class="row">
+          <div class="row gap-4 gap-lg-0">
             <div class="service-card col-lg-4">
               <div class="card-image">
                 <img src="./images/card1.jpg" alt="Office Cleaning Service" />
@@ -189,7 +203,7 @@
         </div>
 
         <div class="card-container">
-          <div class="row">
+          <div class="row gap-4 gap-lg-0">
             <div class="service-card col-lg-4">
               <div class="card-image">
                 <img
@@ -344,7 +358,7 @@
         </div>
       </div>
 
-      <div class="pricing-container">
+      <div class="pricing-container container">
         <div class="pricing-card">
           <h3 class="package-name">BASIC PACKAGE</h3>
           <div class="price-tag">$59.00<span>/Monthly</span></div>
